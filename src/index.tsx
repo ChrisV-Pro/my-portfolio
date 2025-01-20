@@ -1,8 +1,11 @@
 // src/index.tsx
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App"; // We'll create this file next
-import "./index.css"; // Optional global styles
+
+/* Import your Tailwind + global styles */
+import "./Assets/styles/global.css";
+
+import App from "./App";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

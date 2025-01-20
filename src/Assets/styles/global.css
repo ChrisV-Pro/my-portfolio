@@ -1,15 +1,18 @@
+/* src/global.css or src/styles/global.css */
+
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom global styles can follow here */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: sans-serif;
 }
 
-section {
-  padding: 20px;
-  border-bottom: 1px solid #ddd;
-}
-
-h1,
-h2 {
+/* Example custom class */
+.my-custom-class {
+  background-color: #f0f0f0;
   color: #333;
 }
