@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES6", // Transpile down to at least ES6
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // Include libraries for DOM and latest ECMAScript features
+
+    /* Modules */
+    "module": "ESNext", // For modern module resolution
+    "moduleResolution": "Node", // Match Node.js resolution rules
+
+    /* React JSX */
+    "jsx": "react-jsx", // Required for React 17+ new JSX transform
+
+    /* Type Checking */
+    "strict": true, // Enable all strict type-checking options
+    "forceConsistentCasingInFileNames": true, // Disallow differently cased imports of the same file
+
+    /* Interop and Helpers */
+    "esModuleInterop": true, // Enables import/export interop
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+
+    /* Compilation Behavior */
+    "allowJs": true, // Allow JS files in your project
+    "skipLibCheck": true, // Skip checking .d.ts files for faster builds
+    "isolatedModules": true, // Required for Babel/CRA to compile each file in isolation
+    "resolveJsonModule": true, // Allow importing .json files
+    "noEmit": true // Don’t emit JavaScript files (CRA handles bundling)
+
+    /* Advanced Options */
+    // "baseUrl": ".",                           // If needed for absolute imports
+    // "paths": {                                // If using path aliases
+    //   "@components/*": ["src/components/*"]
+    // }
+  },
+  "include": ["src"], // Directories/files to include
+  "exclude": ["node_modules", "build", "dist"] // Directories/files to exclude
+}

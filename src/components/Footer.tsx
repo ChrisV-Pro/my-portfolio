@@ -1,9 +1,9 @@
 import React from "react";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer>
-      <p>© 2025 Christopher Vazquez. All Rights Reserved.</p>
+      <p>© 2025 My Portfolio. All rights reserved.</p>
     </footer>
   );
 };
